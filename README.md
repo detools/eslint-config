@@ -4,3 +4,21 @@
 [![Build Status](https://travis-ci.org/detools/eslint-config.svg?branch=master)](https://travis-ci.org/detools/eslint-config)
 
 Detools shared eslint config
+
+### How to use
+
+**.babelrc**
+```json
+{
+  "extends": "@detools/eslint-config"
+}
+```
+
+**package.json**
+```json
+{
+  "eslintConfig": {
+    "extends": "@detools/eslint-config"
+  }
+}
+```

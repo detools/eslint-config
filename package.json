@@ -1,36 +1,35 @@
 {
-  "name": "eslint-config-tipsi",
-  "version": "2.2.0",
-  "description": "Tipsi shared eslint config",
+  "name": "@detools/eslint-config",
+  "version": "1.0.0",
+  "description": "Detools shared eslint config",
   "main": "index.js",
   "scripts": {
-    "test": "eslint -c index.js index.js"
+    "test": "eslint -c index.js index.js",
+    "publish": "npm publish ./ --access=public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tipsi/eslint-config-tipsi.git"
+    "url": "git+https://github.com/detools/eslint-config.git"
   },
   "keywords": [
     "eslint",
-    "config",
-    "tipsi"
+    "config"
   ],
-  "author": "Tipsi",
+  "author": "Anton Kuznetsov <isnifer@gmail.com> (https://github.com/isnifer)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tipsi/eslint-config-tipsi/issues"
+    "url": "https://github.com/detools/eslint-config/issues"
   },
-  "homepage": "https://github.com/tipsi/eslint-config-tipsi#readme",
+  "homepage": "https://github.com/detools/eslint-config#readme",
   "dependencies": {
     "babel-eslint": "9.0.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
-    "eslint-plugin-react": "7.11.1",
-    "eslint-plugin-tipsi": "1.0.1"
+    "eslint-plugin-react": "7.11.1"
   },
   "devDependencies": {
-    "eslint": "5.5.0"
+    "eslint": "^5.6.0"
   },
   "peerDependencies": {
     "eslint": "^5.5.0"

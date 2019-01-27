@@ -29,6 +29,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/extensions': 'off',
     'jsx-a11y/label-has-for': 'off',
+    'arrow-parens': ['error', 'as-needed'],
     'comma-dangle': ['error', {
       arrays: 'always-multiline',
       objects: 'always-multiline',
@@ -38,8 +39,10 @@ module.exports = {
       // https://github.com/eslint/eslint/issues/7809
       functions: 'never',
     }],
+    'eol-last': 'off',
     'function-paren-newline': ['off'],
     'global-require': 'off',
+    'implicit-arrow-linebreak': 'off',
     'indent': ['error', 2, { SwitchCase: 1 }],
     'max-len': [2, 100],
     'no-await-in-loop': 'off',
@@ -52,7 +55,7 @@ module.exports = {
     'object-curly-newline': 'off',
     'operator-linebreak': 'off',
     'prefer-promise-reject-errors': 'off',
-    'quote-props': ['error', 'consistent-as-needed'],
+    'quote-props': ['error', 'as-needed'],
     'semi': ['error', 'never'],
   },
   plugins: [

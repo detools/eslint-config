@@ -7,7 +7,7 @@ Detools shared eslint config
 
 ### How to use
 
-**.babelrc**
+**.eslintrc**
 ```json
 {
   "extends": "@detools/eslint-config"

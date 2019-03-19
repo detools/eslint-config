@@ -43,7 +43,7 @@ module.exports = {
     'function-paren-newline': ['off'],
     'global-require': 'off',
     'implicit-arrow-linebreak': 'off',
-    'indent': ['error', 2, { SwitchCase: 1 }],
+    indent: ['error', 2, { SwitchCase: 1 }],
     'max-len': [2, 100],
     'no-await-in-loop': 'off',
     'no-confusing-arrow': 'off',
@@ -56,7 +56,7 @@ module.exports = {
     'operator-linebreak': 'off',
     'prefer-promise-reject-errors': 'off',
     'quote-props': ['error', 'as-needed'],
-    'semi': ['error', 'never'],
+    semi: ['error', 'never'],
   },
   plugins: [
     'react',
